@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title of the project in searchbar-->
+    <title>Trip Advisor</title>
+    <!--My stylesheet link-->
+    <link rel="stylesheet" href="style.css">
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+<!--Fontawesome CDN link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!--Navbar-Total containar--> 
+    <div class="navbar-containar">
+    <!--Navbar Trip advisor Title-s1-->
+        <div class="navbar-s1">
+       <h1 class="navbar-s1__title"><i class="fa-brands fa-duolingo" style="color: rgb(0, 1, 12);"></i> Tripadvisor</h1>
+       <!--some other titles and icons-->
+       <div class="navbar-s1__icons-title">
+       <button class="navbar-s1__button-AI"><i class="fa-brands fa-openai" style="color: rgb(0, 1, 12);"></i> Plan With AI</button>
+       <h4>Discover</h4>
+       <h4>Review</h4>
+       <h4>More</h4>
+       <h4><i class="fa-solid fa-heart" style="color: rgb(0, 1, 12);"></i></h4>
+       <h4><i class="fa-solid fa-globe" style="color: rgb(0, 1, 12);"></i>| INR</h4>
+       <!--Sign in button-->
+       <button class="navbar-s1__button-signin">Sign in</button>
+        </div>
+        </div>
+    <!--Navbar search for trip advisor-->
+    <div class="navbar-s2">
+    <h1 class="searchbar-title">Where To<i class="fa-solid fa-question" style="color: rgb(0, 1, 12);"></i></h1>
+     <div class=navbar-s2__searchbar>
+    <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 1, 12);"></i>
+    <input type="search" placeholder="Places To Go,Things To Do,Hotels...">
+    <!--Navbar seachbar button for trip advisor-->
+    <button class="btn-ask">Ask AI</button>
+    <button class="btn-search">Search</button>
+    </div>
+    </div>
+    <!--End of Navbar containar-->
+
+    <!--Home page image-->
+    <div class="hero-img">
+        <img src="./image/realhome.jpeg" alt="Hero img">
+    </div>
+    <!-- Interest Section Start -->
+<div class="interest-section">
+    <h3 class="interest-card__title">Find things to do by interest</h3>
+    <p class="interest-card__des">Whatever you're into, we've got it</p>
+
+    <!-- 4 Cards-aiyum ore line-la vaikkum Container -->
+    <div class="interest-card__containar">
+        
+        <!-- Card 1 -->
+        <div class="interest-card">
+            <img src="./image/outdoor.jpg" alt="outdoor">
+            <div class="card-gradient"></div>
+            <h4>Outdoors</h4>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="interest-card">
+            <img src="./image/foods.jpg" alt="Food">
+            <div class="card-gradient"></div>
+            <h4>Food</h4>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="interest-card">
+            <img src="./image/culture.jpg" alt="culture">
+            <div class="card-gradient"></div>
+            <h4>Culture</h4>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="interest-card">
+            <img src="./image/Niagara waterfall.jpg" alt="waterfall">
+            <div class="card-gradient"></div>
+            <h4>Waterfalls</h4>
+        </div>
+    </div>
+</div>
+<!-- Interest Section End -->
+ <!-- Madurai Experience Section Start -->
+<div class="experience-section">
+    <h3 class="experience-title">Explore experiences near Madurai (Temple City)</h3>
+    <p class="experience-subtitle">Can't-miss picks near you</p>
+
+    <!--Container holding 4cards -->
+    <div class="experience-container">
+
+        <!-- Card 1: Jallikattu -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/839168-jallikattu-competitions.avif" alt="Alanganallur Jallikattu">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Alanganallur Pongal Jallikattu Live Tour with Local Guide</h4>
+                <p class="card-desc">Experience the world-famous bull-taming festival in Alanganallur during Pongal, showcasing ancient Tamil valor and rich history.</p>
+                <div class="rating-row">
+                    <span class="rating-score">5.0</span>
+                    <span class="rating-circles">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="review-count">(512)</span>
+                </div>
+                <p class="price-text">from ₹3,500 per adult</p>
+            </div>
+        </div>
+
+        <!-- Card 2: Teppakulam -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/images (2).jpg" alt="Vandiyur Teppakulam">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Evening Heritage Walk at Vandiyur Mariamman Teppakulam</h4>
+                <p class="card-desc">A famous tourist spot and one of Madurai's most beautiful places, offering breathtaking evening views with glowing temple lights.</p>
+                <div class="rating-row">
+                    <span class="rating-score">4.8</span>
+                    <span class="rating-circles">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="review-count">(230)</span>
+                </div>
+                <p class="price-text">from ₹1,200 per adult</p>
+            </div>
+        </div>
+
+        <!-- Card 3: Meenakshi Amman Temple -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/images (1).jpg" alt="Meenakshi Amman Temple">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Madurai Meenakshi Amman Temple History & Spiritual Guided Tour</h4>
+                <p class="card-desc">Discover the 2,500-year-old Dravidian marvel and sacred Hindu traditions that attract international travelers from across the globe.</p>
+                <div class="rating-row">
+                    <span class="rating-score">5.0</span>
+                    <span class="rating-circles">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="review-count">(845)</span>
+                </div>
+                <p class="price-text">from ₹2,450 per adult</p>
+            </div>
+        </div>
+
+        <!-- Card 4: Thirumalai Nayakkar Mahal -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/images.jpg" alt="Thirumalai Nayakkar Mahal">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>17th-Century Thirumalai Nayakkar Mahal Royal Palace Tour</h4>
+                <p class="card-desc">Built in 1636 by King Tirumala Nayaka, this historic royal palace is famous for its massive stone-like pillars and grand royal courtyard.</p>
+                <div class="rating-row">
+                    <span class="rating-score">4.9</span>
+                    <span class="rating-circles">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="review-count">(410)</span>
+                </div>
+                <p class="price-text">from ₹1,800 per adult</p>
+            </div>
+        </div>
+
+        <!-- 4-Right Side Arrow Button -->
+        <button class="right-arrow-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+</div>
+<!-- Madurai Experience Section End -->
+
+<!--small business image-->
+    <div class="smallbusiness-img">
+        <img src="./image/show some love to samll businesses.jpeg" alt="Hero img">
+    </div>
+    <!--end of small business image-->
+
+    <!-- Adventure Section Start -->
+<div class="experience-section">
+    <h3 class="experience-title">Plan Your Next Adventure</h3>
+    <p class="experience-subtitle">Feel the ultimate thrill and excitement</p>
+
+    <div class="experience-container">
+        <!-- Adventure Card 1 -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/kerala.jpg" alt="Kerala Boating">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Backwater Houseboat Cruise in Kerala Backwaters</h4>
+                <p class="card-desc">Glide through serene palm-fringed canals and tranquil lagoons on a traditional wooden houseboat.</p>
+                <div class="adventure-info">
+                    <span class="thrill-tag">Thrill: Moderate</span>
+                    <span class="season-tag">Best: Oct - Mar</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Adventure Card 2 -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/space.jpg" alt="Space Adventure">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Zero-Gravity Stratosphere Space Simulation Flight</h4>
+                <p class="card-desc">Experience weightlessness and gaze at the curvature of the Earth from the edge of space.</p>
+                <div class="adventure-info">
+                    <span class="thrill-tag">Thrill: Extreme</span>
+                    <span class="season-tag">Best: Year-round</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Adventure Card 3 -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/mounten.jpg" alt="Everest Mountain">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Mount Everest Base Camp High Altitude Expedition</h4>
+                <p class="card-desc">Trek through majestic Himalayan terrain and witness the breathtaking glory of the world's highest peak.</p>
+                <div class="adventure-info">
+                    <span class="thrill-tag">Thrill: Hardcore</span>
+                    <span class="season-tag">Best: Apr - May</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Adventure Card 4 -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/waking in forest.jpg" alt="Jungle Trekking">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Deep Amazon Wildlife Jungle Trekking & Safari</h4>
+                <p class="card-desc">Explore dense tropical rainforests, discover exotic wildlife, and experience raw survival nature.</p>
+                <div class="adventure-info">
+                    <span class="thrill-tag">Thrill: High</span>
+                    <span class="season-tag">Best: Jun - Oct</span>
+                </div>
+            </div>
+        </div>
+
+        <button class="right-arrow-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </div>
+</div>
+<!-- Adventure Section End -->
+
+
+<!-- Iconic Places Section Part 1 Start -->
+<div class="experience-section">
+    <h3 class="experience-title">Iconic Places to Visit All Around the World</h3>
+    <p class="experience-subtitle">Must-see global landmarks and destinations</p>
+
+    <div class="experience-container">
+        <!-- Iconic Card 1: Rome -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/rome.jpg" alt="Rome Italy">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Colosseum & Ancient Roman History Walking Tour</h4>
+                <p class="card-desc">Step back in time to explore the legendary gladiatorial arena and timeless classical architecture of Rome.</p>
+                <div class="rating-row">
+                    <span class="rating-score">4.9</span>
+                    <span class="rating-circles">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="review-count">(1,240)</span>
+                </div>
+                <p class="price-text">from ₹4,500 per adult</p>
+            </div>
+        </div>
+
+        <!-- Iconic Card 2: Paris -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/paries.jpg" alt="Paris France">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Eiffel Tower Summit Access & Seine River Cruise</h4>
+                <p class="card-desc">Enjoy panoramic views from the iron lattice tower and a romantic boat ride along the historic river.</p>
+                <div class="rating-row">
+                    <span class="rating-score">5.0</span>
+                    <span class="rating-circles">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="review-count">(2,150)</span>
+                </div>
+                <p class="price-text">from ₹6,200 per adult</p>
+            </div>
+        </div>
+
+        <!-- Iconic Card 3: New York -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/New york 2.jpg" alt="New York USA">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Manhattan Skyline & Statue of Liberty Express Cruise</h4>
+                <p class="card-desc">Witness the iconic NYC urban architecture and the symbol of freedom up close in New York Harbor.</p>
+                <div class="rating-row">
+                    <span class="rating-score">4.8</span>
+                    <span class="rating-circles">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="review-count">(980)</span>
+                </div>
+                <p class="price-text">from ₹5,800 per adult</p>
+            </div>
+        </div>
+
+        <!-- Iconic Card 4: London -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/London 2.jpg" alt="London UK">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>London Tower Bridge & Westminster Heritage City Tour</h4>
+                <p class="card-desc">Discover the majestic Victorian suspension bridge and royal landmarks across the River Thames.</p>
+                <div class="rating-row">
+                    <span class="rating-score">4.9</span>
+                    <span class="rating-circles">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="review-count">(1,430)</span>
+                </div>
+                <p class="price-text">from ₹3,900 per adult</p>
+            </div>
+        </div>
+
+        <button class="right-arrow-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </div>
+</div>
+<!-- Iconic Places Section Part 1 End -->
+
+
+<!-- Iconic Places Section Part 2 Start -->
+<div class="experience-section">
+    <div class="experience-container">
+        <!-- Iconic Card 5: Taj Mahal / India -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/india 2.jpg" alt="Taj Mahal India">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Taj Mahal Sunrise Guided Tour & Mughal Architecture</h4>
+                <p class="card-desc">Witness the magnificent white marble mausoleum bathed in early morning golden light, a true wonder of the world.</p>
+                <div class="rating-row">
+                    <span class="rating-score">5.0</span>
+                    <span class="rating-circles">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="review-count">(3,100)</span>
+                </div>
+                <p class="price-text">from ₹1,500 per adult</p>
+            </div>
+        </div>
+
+        <!-- Iconic Card 6: Australia -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/aus.jpg" alt="Australia">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Sydney Opera House & Harbour Bridge Climb Experience</h4>
+                <p class="card-desc">Explore world-famous sail-shaped performing arts center and panoramic coastal views of Sydney Harbour.</p>
+                <div class="rating-row">
+                    <span class="rating-score">4.9</span>
+                    <span class="rating-circles">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="review-count">(890)</span>
+                </div>
+                <p class="price-text">from ₹7,500 per adult</p>
+            </div>
+        </div>
+
+        <!-- Iconic Card 7: Dubai -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/dubai.jpg" alt="Dubai UAE">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>Burj Khalifa At The Top Observation Deck & Fountain Show</h4>
+                <p class="card-desc">Ascend the world's tallest tower for unmatched skyline views and experience the mesmerizing choreographed fountains.</p>
+                <div class="rating-row">
+                    <span class="rating-score">4.8</span>
+                    <span class="rating-circles">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="review-count">(2,400)</span>
+                </div>
+                <p class="price-text">from ₹4,800 per adult</p>
+            </div>
+        </div>
+
+        <!-- Iconic Card 8: China -->
+        <div class="experience-card">
+            <div class="experience-img-box">
+                <img src="./image/china 2.jpg" alt="China">
+                <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="experience-details">
+                <h4>The Great Wall of China Hiking & Heritage Tour</h4>
+                <p class="card-desc">Walk along the legendary ancient fortification stretching across majestic mountain ridges and rugged landscapes.</p>
+                <div class="rating-row">
+                    <span class="rating-score">4.9</span>
+                    <span class="rating-circles">
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                        <i class="fa-solid fa-circle"></i>
+                    </span>
+                    <span class="review-count">(1,120)</span>
+                </div>
+                <p class="price-text">from ₹5,200 per adult</p>
+            </div>
+        </div>
+
+        <button class="right-arrow-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </div>
+</div>
+<!-- Iconic Places Section Part 2 End -->
+ <!--web page ku summa rendu image vaipom idhu firstu-->
+ <div class="summa-1-img">
+        <img src="./image/summa3.jpeg" alt="summa">
+    </div>
+    <!--footer-section-->
+    <div class="footer">
+
+        <div class="footer-one">
+     <div class="footer-one__s1">
+        <p>About Tripadvisor</p>
+        <p>About Us</p>
+        <p>Resources and policies</p>
+        <p>Careers</p>
+        <p>Trust & Safety</p>
+        <p>Contact us</p>
+        <p>Tripadvisor Technology</p>
+        <p>Blog</p>
+     </div>
+        </div>
+   
+<div class="footer-two">       
+<div class="footer-two__s2">
+  <p>Explore</p>
+  <p>Things To Do</p>
+  <p>Hotels</p>
+  <p>Restaurants</p>
+  <p>Cruises</p>
+  <p>Write a review</p>
+  <p>Add a place</p>
+  <p>Join</p>
+  <p>Travellers'choice</p>
+  <p>Help centre</p>
+  <p>Travel Stories</p>
+</div> 
+</div>
+
+<div class="footer-three">
+<div class="footer-three__s3">
+ <p>Do Business With Us</p>
+ <p>Owners & DMO/CVB</p>
+ <p>Business Advantage</p>
+ <p>Sponsored Placements</p>
+ <p>Advertise with us</p>
+ <p>Access our content API</p>
+
+
+ <p>Get The App</p>
+ <p>iphone App</p>
+ <p>Android App</p>
+</div>
+</div>
+
+ <div class="copyright">
+<p>&copy;Tripadvisor Clone Build BY R.Hariharan</p>
+ </div>
+
+    </div>
